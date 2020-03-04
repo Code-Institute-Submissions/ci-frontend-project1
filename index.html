@@ -16,7 +16,7 @@
   <body>
     <section>   <!-- Home Page -->
       <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
 
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search">
@@ -36,9 +36,15 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                Contact
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Action</a>
@@ -53,14 +59,21 @@
       <!--Carousel-->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://wowslider.com/posts/data/upload/2017/03/1controls.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item active" style="background-image: url('image/padmasana.jpg')">
+            <div class="headliner">
+              <h1>Some Title for Slide 1</h1>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('image/yoga_image1.jpg')">
+            <div class="headliner">
+              <h1>Some Title for Slide 2</h1>
+            </div>
           </div>
           <div class="carousel-item">
             <img src="https://wowslider.com/posts/data/upload/2017/03/1controls.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="https://wowslider.com/posts/data/upload/2017/03/1controls.jpg" class="d-block w-100" alt="...">
+            <div class="headliner2">
+              <h1>Some Title for Slide 3</h1>
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

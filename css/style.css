@@ -1,0 +1,29 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 80%;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .headliner{
+    position: relative;
+    left: 150px;
+    top: 150px;
+  }
+
+  .headliner2{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+  }
+
+  .fixed-top{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
