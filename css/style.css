@@ -45,6 +45,26 @@ h1.tagline-1{
     vertical-align: middle;
   }
 
+  nav a {
+    font-size: 20px;
+  }
+
+  .navbar-custom .nav-item .nav-link {
+    color: #E7D8C9;
+    text-shadow: 2px 2px 1px #816661;
+}
+
+  .navbar .dropdown-menu{
+    background-color: none;
+    opacity: 0.7;
+  }
+
+  nav .dropdown-item{
+    color:#8b694d;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+  }
+
    /* Articles Page CSS*/
    section#articles {
     background: #F7F2ED;
