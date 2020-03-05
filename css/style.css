@@ -36,3 +36,11 @@
     height: 18rem;
     border: 1px  dotted black;
   }
+
+  h1#general-heading{
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    color: #8B694D;
+    text-align: center;
+    vertical-align: middle;
+  }
