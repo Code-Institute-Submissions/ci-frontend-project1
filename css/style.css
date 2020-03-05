@@ -37,7 +37,11 @@
     vertical-align: middle;
   }
 
-  /* Services Type Section Styling*/
+   /* Articles Page CSS*/
+   section#articles {
+    background: #F7F2ED;
+  }
+
   .card .card-img{
     background-color: lightblue;
     width: 18rem;
@@ -46,7 +50,7 @@
   }
 
   h1.general-heading{
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu',sans-serif;
     font-size: 36px;
     color: #8B694D;
     text-align: center;
@@ -54,7 +58,7 @@
   }
 
   h2.general-sub-heading{
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     color: #8B694D;
     text-align: center;
@@ -84,6 +88,7 @@
 
   #pricing .card-title {
     margin: 0.5rem 0;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     letter-spacing: .1rem;
     font-weight: bold;
@@ -91,22 +96,27 @@
   }
 
   #pricing .card-price {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 3.2rem;
     margin: 0;
     color: wheat;
   }
   
   #pricing .period {
-    font-size: 0.8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
     color: wheat;
   }
 
   #pricing ul li {
     margin-bottom: 0.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
   #pricing .btn {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
+    font-weight: bold;
     border-radius: 5rem;
     letter-spacing: .1rem;
     font-weight: bold;
@@ -121,7 +131,7 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
-  
+
   #pricing .card:hover .btn {
     opacity: 1;
   }
