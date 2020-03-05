@@ -42,13 +42,6 @@
     background: #F7F2ED;
   }
 
-  .card .card-img{
-    background-color: lightblue;
-    width: 18rem;
-    height: 18rem;
-    border: 1px  dotted black;
-  }
-
   h1.general-heading{
     font-family: 'Ubuntu',sans-serif;
     font-size: 36px;
@@ -69,6 +62,40 @@
     justify-content: center;
     align-items: center;
   }
+   
+  .card-deck .card .card-img-top{
+    background-color: lightblue; /*fall-back in case image fails*/
+    border: none;
+  }
+
+  .card-body{
+    color: #8b694d;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .card-body > footer {
+    color: #8b694d;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+    #articles .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 2px 2rem 2rem 0 rgba(0, 0, 0, 0.5);
+    }
+
+
+    /*Services Type Page CSS*/
+    section#service-types {
+      background: #F7F2ED;
+    }
+
+    .card .card-img{
+      background-color: lightblue; /*fall-back in case image fails*/
+      width: 18rem;
+      height: 18rem;
+      border: none;
+    }
 
    /* Pricing Page CSS*/
    section#pricing {
