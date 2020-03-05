@@ -1,4 +1,12 @@
 /* Home Section Styling*/
+
+h1.tagline-1{
+  font-family: 'Ubuntu';
+  font-size: 60px;
+  color: wheat;     /*#E7D8C9;*/
+  text-shadow: 3px 3px 3px #816661;
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 80%;
@@ -95,6 +103,40 @@
       width: 18rem;
       height: 18rem;
       border: none;
+    }
+
+    .flip-card > div {
+      backface-visibility: hidden;
+      transition: transform 500ms;
+      transition-timing-function: linear;
+      margin: 0;
+      border: none;
+    }
+
+    .flip-card-front {
+      transform: rotateY(0deg);
+      background-color: #bbb;
+      color: #8b694d;
+    }
+
+    .flip-card-back {
+      transform: rotateY(180deg);
+      position: absolute;
+      background-color: #E7D8C9;
+      color: #8b694d;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+      width: 100%;
+    }
+
+    .flip-card:hover .flip-card-front {
+      transform: rotateY(-180deg);
+    }
+      
+    .flip-card:hover .flip-card-back {
+      transform: rotateY(0deg);
     }
 
    /* Pricing Page CSS*/
