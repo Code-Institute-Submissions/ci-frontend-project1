@@ -29,6 +29,14 @@
     z-index: 1030;
   }
 
+  h1.general-heading{
+    font-family: 'Ubuntu';
+    font-size: 32px;
+    color: #8B694D;
+    text-align: center;
+    vertical-align: middle;
+  }
+
   /* Services Type Section Styling*/
   .card .card-img{
     background-color: lightblue;
@@ -46,6 +54,9 @@
   }
 
    /* Pricing Page CSS*/
+   section#pricing {
+    background: #F7F2ED;
+  }
 
   #pricing .card-header{
     background-color: #8B694D;
@@ -76,3 +87,28 @@
     font-size: 0.8rem;
     color: wheat;
   }
+
+  #pricing ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  #pricing .btn {
+    font-size: 1rem;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.75;
+    background-image: radial-gradient(#423224,#AE896B);
+    color: wheat;
+  }
+
+  #pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  #pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
