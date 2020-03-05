@@ -95,14 +95,20 @@ h1.tagline-1{
 
     /*Services Type Page CSS*/
     section#service-types {
-      background: #F7F2ED;
+      background: #f7f2ed;
+    }
+
+    .card.flip-card{
+      width: 18rem;
+      height: 18rem;
+      max-width: 18rem;
+      max-height: 18rem;
+      background-color: #f7f2ed;
+      border: none;
     }
 
     .card .card-img{
       background-color: lightblue; /*fall-back in case image fails*/
-      width: 18rem;
-      height: 18rem;
-      border: none;
     }
 
     .flip-card > div {
@@ -137,6 +143,11 @@ h1.tagline-1{
       
     .flip-card:hover .flip-card-back {
       transform: rotateY(0deg);
+    }
+
+    .flip-card-back>p{
+        color: #8b694d;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 
    /* Pricing Page CSS*/
