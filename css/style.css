@@ -45,12 +45,25 @@
     border: 1px  dotted black;
   }
 
-  h1#general-heading{
+  h1.general-heading{
     font-family: 'Ubuntu';
-    font-size: 32px;
+    font-size: 36px;
     color: #8B694D;
     text-align: center;
     vertical-align: middle;
+  }
+
+  h2.general-sub-heading{
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    color: #8B694D;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .title-bar{
+    justify-content: center;
+    align-items: center;
   }
 
    /* Pricing Page CSS*/
@@ -108,7 +121,7 @@
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
+  
   #pricing .card:hover .btn {
     opacity: 1;
   }
-}
