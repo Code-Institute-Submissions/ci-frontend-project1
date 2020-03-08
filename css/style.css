@@ -300,11 +300,21 @@ h1.tagline-1{
   /* Forms Page CSS*/
   .form-cm{
     margin-left: 1px;
+    background-color: white;
+    padding-right: 46px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
   }
 
-  section#form{
-    background: #F7F2ED;
+  section#su-form{
+    background: #f7f2ed;
   }
+
+  label.required::after{
+    content:'*';
+    color:wheat;
+    margin-left: 5px;
+    }
 
   label.col-form-label{
     background-color: #8b694d;
@@ -317,4 +327,19 @@ h1.tagline-1{
 
   label.form-check-label{
     color: #8b694d;
+  }
+
+  .form-buttons .btn{
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    padding: 1rem;
+    opacity: 0.75;
+    background-image: radial-gradient(#423224,#AE896B);
+    color: wheat;
   }
