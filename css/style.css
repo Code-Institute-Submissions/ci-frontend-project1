@@ -301,3 +301,20 @@ h1.tagline-1{
   .form-cm{
     margin-left: 1px;
   }
+
+  section#form{
+    background: #F7F2ED;
+  }
+
+  label.col-form-label{
+    background-color: #8b694d;
+    color: wheat;
+  }
+  
+  .input-group-prepend .fas, .input-group-prepend .far{
+    color: #8b694d;
+  }
+
+  label.form-check-label{
+    color: #8b694d;
+  }
