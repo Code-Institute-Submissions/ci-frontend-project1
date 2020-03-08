@@ -116,9 +116,9 @@
     <div class="input-group-prepend">
       <div class="input-group-text"><i class="fas fa-sun"></i></div>
       </div>
-      <div class="row border mx-1">
+      <div class="row border form-cm">
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" id="Mon" value="Mon">
+          <input class="form-check-input ml-3" type="checkbox" id="Mon" value="Mon">
           <label class="form-check-label" for="Mon">
           Mon
           </label>
@@ -154,25 +154,32 @@
   <!-- TIME PREFERENCE-->
   <div class="form-group row">
     <label for="inputTime" class="col-sm-2 col-form-label">Time preferred to call:</label>
-     <div class="col-sm-5 d-inline-flex">
-     <div class="input-group-prepend">
-            <div class="input-group-text"><i class="far fa-clock"></i></div>
-          </div>
-  <div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="time-am" value="AM">
-    <label class="form-check-label" for="time-am">AM</label>
-  </div>
-  <div class="form-check form-check-inline">
-    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="time-pm" value="PM">
-    <label class="form-check-label" for="time-pm">PM</label>
-  </div>
-     </div>
+      <div class="col-sm-5 d-inline-flex">
+        <div class="input-group-prepend">
+          <div class="input-group-text"><i class="far fa-clock"></i></div>
+        </div>
+            <div class="row border form-cm">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input ml-3" type="radio" name="inlineRadioOptions" id="time-am" value="AM">
+                <label class="form-check-label" for="time-am">AM</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="time-pm" value="PM">
+                <label class="form-check-label" for="time-pm">PM</label>
+              </div>
+            </div>
+        </div>
   </div>
   
 
-<div class="form-buttons">
-<button class="btn btn-form1" type="submit">Contact me.</button>
-</div>
+  <div class="form-group row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-5 d-inline-flex">
+      <div class="form-buttons">
+      <button class="btn btn-form1" type="submit">Contact me.</button>
+      </div>
+    </div>
+  </div>
 
 
 </form>
