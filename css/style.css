@@ -1,9 +1,9 @@
 /* Home Section Styling*/
 
 h1.tagline-1{
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
-  color: wheat;     /*#E7D8C9;*/
+  color: wheat;     
   text-shadow: 3px 3px 3px #816661;
 }
 
@@ -38,7 +38,7 @@ h1.tagline-1{
   }
 
   h1.general-heading{
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', sans-serif;
     font-size: 32px;
     color: #8B694D;
     text-align: center;
@@ -61,8 +61,23 @@ h1.tagline-1{
 
   nav .dropdown-item{
     color:#8b694d;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 1rem;
+  }
+
+  .headliner2 .btn{
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    letter-spacing: .1rem;
+    padding: 1rem;
+    opacity: 0.75;
+    background-image: radial-gradient(#423224,#AE896B);
+    color: wheat;
   }
 
    /* Articles Page CSS*/
@@ -98,12 +113,12 @@ h1.tagline-1{
 
   .card-body{
     color: #8b694d;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lora', serif;
   }
 
   .card-body > footer {
     color: #8b694d;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Lora', serif;
   }
 
     #articles .card:hover {
@@ -119,10 +134,10 @@ h1.tagline-1{
     }
 
     .card.flip-card{
-      width: 18rem;
-      height: 18rem;
-      max-width: 18rem;
-      max-height: 18rem;
+      width: 20rem;
+      height: 20rem;
+      max-width: 20rem;
+      max-height: 20rem;
       background-color: #f7f2ed;
       border: none;
     }
@@ -151,10 +166,9 @@ h1.tagline-1{
       background-color: #E7D8C9;
       color: #8b694d;
       text-align: center;
-      justify-content: center;
-      align-items: center;
       height:100%;
       width: 100%;
+      padding: 0.1rem;
     }
 
     .flip-card:hover .flip-card-front {
@@ -167,7 +181,23 @@ h1.tagline-1{
 
     .flip-card-back>p{
         color: #8b694d;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Lora', serif;
+        font-size: 15px;
+    }
+
+    .flip-card .btn{
+      width: 70%;
+      max-width: 70%;
+      max-height: auto;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 5rem;
+      letter-spacing: .1rem;
+      padding: 1rem;
+      opacity: 0.75;
+      background-image: radial-gradient(#423224,#AE896B);
+      color: wheat;
     }
 
    /* Pricing Page CSS*/
