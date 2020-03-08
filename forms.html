@@ -15,16 +15,56 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet"> 
 
     <!-- Link to Custom CSS-->
-    <link href="css/form_style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     
     <title>CI User Centric FrontEnd Project 1 Form</title>
   </head>
   <body>
-    <form>
-      <div class="container h-100">
-      <h1> Let Us Contact You.</h1>
 
+    <nav class="navbar navbar-expand-lg navbar-custom">
+
+      <a class="navbar-brand" href="#"><img class="navbar-brand" src="image/logo1-copy.png"></a>
+      <!--<img class="navbar-brand" src="image/logo1.png">-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articles">Articles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://levelsixstudios.co.uk/teachers">Our Teachers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://shop.lululemon.com/c/women/yoga/_/N-7vfZ1z141d0?mnid=mn;en-US-JSON;women;yoga">Store</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://www.google.com/maps/place/OM+Collective+sydney/@-33.935232,151.1310926,11.82z/data=!4m8!1m2!2m1!1sOM+Yoga+Sydney!3m4!1s0x0:0xb7e3a5e8927bae9f!8m2!3d-33.9202332!4d151.1952639"><i class="fas fa-map-marker-alt"></i>Locate Us</a>
+              <a class="dropdown-item" href="mailto:yoga@domain.com?Subject=Hello"><i class="far fa-envelope"></i>E-mail Us</a>
+              <a class="dropdown-item" href="tel:01-12345678"><i class="fas fa-phone-alt"></i>Call Us</a>
+            </div>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+
+   
+      <div class="row d-block title-bar my-5"> <!--Title for Articles-->
+        <h1 class="general-heading"> Let Us Contact You.</h1>
+        </div>
+
+        <form>
        <!-- NAME FIELD -->
     <div class="form-group row">
       <label for="inputName" class="col-sm-2 col-form-label required">Name</label>
@@ -133,7 +173,7 @@
 <div class="form-buttons">
 <button class="btn btn-form1" type="submit">Contact me.</button>
 </div>
-</div>
+
 
 </form>
        
