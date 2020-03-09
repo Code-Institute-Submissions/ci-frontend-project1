@@ -37,13 +37,6 @@ h1.tagline-1{
     z-index: 1030;
   }
 
-  h1.general-heading{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 32px;
-    color: #8B694D;
-    text-align: center;
-    vertical-align: middle;
-  }
 
   nav a {
     font-size: 20px;
@@ -139,10 +132,6 @@ h1.tagline-1{
     }
 
     .card.flip-card{
-     /* width: 20rem;
-      height: 20rem;
-      max-width: 20rem;
-      max-height: 20rem;*/
       background-color: #f7f2ed;
       border: none;
     }
@@ -175,8 +164,9 @@ h1.tagline-1{
       text-align: center;
       height:100%;
       width: 100%;
-      padding: 0.1rem;
+      padding: 0.2rem;
     }
+
 
     .flip-card:hover .flip-card-front {
       transform: rotateY(-180deg);
@@ -186,13 +176,23 @@ h1.tagline-1{
       transform: rotateY(0deg);
     }
 
-    .flip-card-back>p, .flip-card-back>a{
+   
+    .flip-card-back > p{
         color: #8b694d;
         font-family: 'Lora', serif;
         font-size: calc(1em + 1vmin);
         margin-bottom: 0.3rem;
     }
-
+  
+    @media screen and (min-width: 600px){
+    .flip-card-back > p{
+      color: #8b694d;
+      font-family: 'Lora', serif;
+      font-size: calc(0.75em + 0.5vmin);
+      margin-bottom: 0.3rem;
+  }
+}
+  
     .flip-card .btn{
       width: 70%;
       max-width: 70%;
@@ -207,6 +207,23 @@ h1.tagline-1{
       background-image: radial-gradient(#423224,#AE896B);
       color: wheat;
     }
+
+    @media (width:768px){
+    .flip-card .btn{
+      width: 70%;
+      max-width: 70%;
+      max-height: 20%;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.5vmin;  /*1rem;*/
+      font-weight: bold;
+      border-radius: 5rem;
+      letter-spacing: .1rem;
+      padding: 1rem;
+      opacity: 0.75;
+      background-image: radial-gradient(#423224,#AE896B);
+      color: wheat;
+    }
+  }
 
    /* Pricing Page CSS*/
    section#pricing {
