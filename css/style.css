@@ -65,6 +65,11 @@ h1.tagline-1{
     font-size: 1rem;
   }
 
+  .navbar-toggler-icon{
+    color: #E7D8C9;
+    font-size: 30px;
+  }
+
   .headliner2 .btn{
     width: 100%;
     max-width: 100%;
@@ -134,10 +139,10 @@ h1.tagline-1{
     }
 
     .card.flip-card{
-      width: 20rem;
+     /* width: 20rem;
       height: 20rem;
       max-width: 20rem;
-      max-height: 20rem;
+      max-height: 20rem;*/
       background-color: #f7f2ed;
       border: none;
     }
@@ -158,6 +163,8 @@ h1.tagline-1{
       transform: rotateY(0deg);
       background-color: #bbb;
       color: #8b694d;
+      height:100%;    /*set image the size of the div container*/
+      width: 100%;  
     }
 
     .flip-card-back {
@@ -179,10 +186,11 @@ h1.tagline-1{
       transform: rotateY(0deg);
     }
 
-    .flip-card-back>p{
+    .flip-card-back>p, .flip-card-back>a{
         color: #8b694d;
         font-family: 'Lora', serif;
-        font-size: 15px;
+        font-size: calc(1em + 1vmin);
+        margin-bottom: 0.3rem;
     }
 
     .flip-card .btn{
@@ -190,7 +198,7 @@ h1.tagline-1{
       max-width: 70%;
       max-height: auto;
       font-family: 'Ubuntu', sans-serif;
-      font-size: 1rem;
+      font-size: calc(0.75em + 1vmin);  /*1rem;*/
       font-weight: bold;
       border-radius: 5rem;
       letter-spacing: .1rem;
@@ -266,6 +274,7 @@ h1.tagline-1{
     opacity: 1;
   }
 
+  @media only screen and (min-width: 800px){
   #best-value{  
     background-color: none;
     box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.3);
@@ -274,6 +283,7 @@ h1.tagline-1{
     transition: transform 400ms ease;
     transform: scale(1.1);
   }
+}
 
   #best-value .card-header{
     background-color: #dca3a9;
