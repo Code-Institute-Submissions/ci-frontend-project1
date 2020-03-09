@@ -343,3 +343,7 @@ h1.tagline-1{
     background-image: radial-gradient(#423224,#AE896B);
     color: wheat;
   }
+
+  #footer-contact{
+    background-color: #f7f2ed;
+  }
