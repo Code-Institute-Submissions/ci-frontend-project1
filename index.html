@@ -49,15 +49,32 @@
                 Contact
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="https://www.google.com/maps/place/OM+Collective+sydney/@-33.935232,151.1310926,11.82z/data=!4m8!1m2!2m1!1sOM+Yoga+Sydney!3m4!1s0x0:0xb7e3a5e8927bae9f!8m2!3d-33.9202332!4d151.1952639"><i class="fas fa-map-marker-alt"></i>Locate Us</a>
+                <a class="dropdown-item" data-toggle="modal" data-target="#gmapModal"><i class="fas fa-map-marker-alt"></i>Locate Us</a>
                 <a class="dropdown-item" href="mailto:yoga@domain.com?Subject=Hello"><i class="far fa-envelope">E-mail Us</i></a>
                 <a class="dropdown-item" href="tel:01-12345678"><i class="fas fa-phone-alt"></i>Call Us</a>
+
               </div>
             </li>
-          </ul>
-          
+          </ul>   
         </div>
       </nav>
+              
+      <!-- Modal for Location -->
+<div class="modal fade" id="gmapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=om%20yoga%20australia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+          <a href="https://www.crocothemes.net"></a>
+        </div>
+        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+      </div>
+    </div>
+  </div>
+</div>
+
       <!--Carousel-->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -71,8 +88,8 @@
               <h1 class="tagline-1">Tone Your Body</h1>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="image/welcome.jpg" class="d-block w-100" alt="women sitting in a row with yoga pose">
+          <div class="carousel-item" style="background-image: url('image/welcome.jpg')">
+            <!--<img src="image/welcome.jpg" class="d-block w-100" alt="women sitting in a row with yoga pose">-->
             <div class="headliner2">
               <a href="#pricing" class="btn btn-block">Join Us Now!</a>
             </div>
