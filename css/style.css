@@ -196,11 +196,20 @@ h1.tagline-1{
   }
 }
 
-.flip-card-back > a:hover {
-  color: brown;
-  font-family: 'Lora', serif;
-  font-size: calc(1em + 1vmin);
-  margin-bottom: 0.3rem;
+.flip-card-back p a:link {
+  color: #8b694d;
+}
+
+.flip-card-back p a:visited {
+  color: grey;
+}
+
+.flip-card-back p a:hover {
+  color: purple;
+}
+
+.flip-card-back p a:active{
+  color:yellow;
 }
   
     .flip-card .btn{
@@ -335,13 +344,6 @@ h1.tagline-1{
   }
 
   /* Forms Page CSS*/
-  .form-cm{
-    margin-left: 1px;
-    background-color: white;
-    padding-right: 46px;
-    border-top-right-radius: 0.25rem;
-    border-bottom-right-radius: 0.25rem;
-  }
 
   section#su-form{
     background: #f7f2ed;
@@ -358,12 +360,37 @@ h1.tagline-1{
     color: wheat;
   }
   
+  .input-group .input-group-prepend{
+    background-color: white;
+  }
+
+
   .input-group-prepend .fas, .input-group-prepend .far{
     color: #8b694d;
   }
 
+  .input-group-text{
+    font-size: 70%;
+  }
+
   label.form-check-label{
     color: #8b694d;
+  }
+
+  .form-dp{
+    margin-left: 1px;
+    background-color: white;
+    padding-right: 242px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+
+  .form-tp{
+    margin-left: 1px;
+    background-color: white;
+    padding-right: 438px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
   }
 
   .form-buttons .btn{
