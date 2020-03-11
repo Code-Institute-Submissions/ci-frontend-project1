@@ -57,6 +57,11 @@ h1.tagline-1{
     color: #8b694d;
     font-size: 30px;
   }
+  
+  .navbar-brand{
+    color: #000000;
+    font-size: 1rem;
+  }
 
   .headliner .btn{
     width: 30%;
@@ -358,19 +363,42 @@ h1.tagline-1{
   label.col-form-label{
     background-color: #8b694d;
     color: wheat;
+    text-align: right;
   }
+
+  @media only screen and (max-width:700px){
+  label.col-form-label{
+    text-align: left;
+  }
+}
   
   .input-group .input-group-prepend{
     background-color: white;
   }
 
-
-  .input-group-prepend .fas, .input-group-prepend .far{
-    color: #8b694d;
+  @media only screen and (max-width:576px){
+   .input-group-prepend{
+      /*background-color: white;*/
+      margin-left: 15px;
+    }
   }
 
-  .input-group-text{
+  .input-group-text .fas, .input-group-text .far{
+    color: #8b694d;
     font-size: 70%;
+    
+  }
+
+  input.form-control{
+    font-family: 'Lora', serif;
+  }
+
+  .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 0.8em;
+  }
+
+  .form-control::-moz-placeholder { /* Firefox 19+ */
+    font-size: 0.8em;
   }
 
   label.form-check-label{
@@ -380,7 +408,6 @@ h1.tagline-1{
   .form-dp{
     margin-left: 1px;
     background-color: white;
-    padding-right: 242px;
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
   }
@@ -388,10 +415,10 @@ h1.tagline-1{
   .form-tp{
     margin-left: 1px;
     background-color: white;
-    padding-right: 438px;
     border-top-right-radius: 0.25rem;
     border-bottom-right-radius: 0.25rem;
   }
+
 
   .form-buttons .btn{
     width: 100%;
@@ -409,5 +436,37 @@ h1.tagline-1{
   }
 
   #footer-contact{
-    background-color: #f7f2ed;
+    background-color: #8b694d;
+    align-items: end;
+  }
+
+  
+  footer h4{
+    font-family: 'Ubuntu', sans-serif;
+    color:wheat;
+  }
+  
+  footer p{
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  footer .far, footer .fas{
+    font-size: 24px;
+    color: wheat;
+  }
+
+  footer a:link{
+    color: white;
+  }
+
+  footer a:hover{
+    color: #fff2cc;
+  }
+  
+  footer .fab{
+    font-size: 3rem;
+    display: inline;
+    color: wheat;
   }

@@ -24,10 +24,10 @@
 
 <section id="su-form" class="h-100 py-5">
   
-    <nav class="navbar navbar-expand-lg navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
 
-      <a class="navbar-brand" href="#"><img class="navbar-brand" src="image/logo1-copy.png"></a>
-      <!--<img class="navbar-brand" src="image/logo1.png">-->
+      <span class="navbar-brand"></span><img src="image/logo.png">Yoga Studio</span>
+      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -41,7 +41,7 @@
             <a class="nav-link" href="#articles">Articles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://levelsixstudios.co.uk/teachers">Our Teachers</a>
+            <a class="nav-link" href="https://levelsixstudios.co.uk/teachers">Teachers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://shop.lululemon.com/c/women/yoga/_/N-7vfZ1z141d0?mnid=mn;en-US-JSON;women;yoga">Store</a>
@@ -51,7 +51,7 @@
               Contact
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="https://www.google.com/maps/place/OM+Collective+sydney/@-33.935232,151.1310926,11.82z/data=!4m8!1m2!2m1!1sOM+Yoga+Sydney!3m4!1s0x0:0xb7e3a5e8927bae9f!8m2!3d-33.9202332!4d151.1952639"><i class="fas fa-map-marker-alt"></i>Locate Us</a>
+              <a class="dropdown-item" data-toggle="modal" data-target="#gmapModal"><i class="fas fa-map-marker-alt"></i>Locate Us</a>
               <a class="dropdown-item" href="mailto:yoga@domain.com?Subject=Hello"><i class="far fa-envelope"></i>E-mail Us</a>
               <a class="dropdown-item" href="tel:01-12345678"><i class="fas fa-phone-alt"></i>Call Us</a>
             </div>
@@ -61,17 +61,32 @@
       </div>
     </nav>
 
-   
-      <div class="row d-block title-bar my-5"> <!--Title for Articles-->
+   <!-- Modal for Location -->
+<div class="modal fade" id="gmapModal" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=om%20yoga%20australia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+          <a href="https://www.crocothemes.net"></a>
+        </div>
+        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="row d-block title-bar my-5"> <!--Title for Contact-->
         <h1 class="general-heading"> Let Us Contact You.</h1>
         </div>
 
         <form>
        <!-- NAME FIELD -->
     <div class="form-group row justify-content-center mb-0">
-      <label for="inputName" class="col-sm-2 col-form-label text-right required">Name:</label>
+      <label for="inputName" class="col-md-2 col-form-label required">Name:</label>
       
-      <div class="col-sm-5 pl-0">
+      <div class="col-md-5 pl-0">
         <div class="input-group">
           <div class="input-group-prepend">
             <div class="input-group-text bg-light border-0"><i class="fas fa-user"></i></div>
@@ -83,7 +98,7 @@
     
     <!-- PHONE FIELD-->
     <div class="form-group row justify-content-center mb-0">
-      <label for="inputPhone" class="col-sm-2 col-form-label text-right required">Phone No.:</label>
+      <label for="inputPhone" class="col-sm-2 col-form-label required">Phone No.:</label>
 
      
       <div class="col-sm-5 pl-0">
@@ -98,7 +113,7 @@
 
   <!-- E-MAIL FIELD-->
   <div class="form-group row justify-content-center mb-0">
-    <label for="inputEmail" class="col-sm-2 col-form-label text-right required">E-mail:</label>
+    <label for="inputEmail" class="col-sm-2 col-form-label required">E-mail:</label>
    
     <div class="col-sm-5 pl-0">
         <div class="input-group">
@@ -113,12 +128,12 @@
 
   <!-- DAY PREFERENCE-->
   <div class="form-group row justify-content-center mb-0">
-    <label for="inputDay" class="col-sm-2 col-form-label text-right">Day preferred to call:</label>
+    <label for="inputDay" class="col-sm-2 col-form-label">Day preferred to call:</label>
     <div class="col-sm-5 d-inline-flex pl-0">
     <div class="input-group-prepend">
       <div class="input-group-text bg-light border-0"><i class="fas fa-sun"></i></div>
       </div>
-      <div class="row border-0 form-dp">
+      <div class="input-group border-0 form-dp">
         <div class="form-check form-check-inline ml-2">
           <input class="form-check-input" type="checkbox" id="Mon" value="Mon">
           <label class="form-check-label" for="Mon">
@@ -155,12 +170,12 @@
 
   <!-- TIME PREFERENCE-->
   <div class="form-group row justify-content-center mb-0">
-    <label for="inputTime" class="col-sm-2 col-form-label text-right">Time preferred to call:</label>
+    <label for="inputTime" class="col-sm-2 col-form-label">Time preferred to call:</label>
       <div class="col-sm-5 d-inline-flex pl-0">
         <div class="input-group-prepend">
           <div class="input-group-text bg-light border-0"><i class="far fa-clock"></i></div>
         </div>
-            <div class="row border-0 form-tp">
+            <div class="input-group border-0 form-tp">
               <div class="form-check form-check-inline ml-2">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="time-am" value="AM">
                 <label class="form-check-label" for="time-am">AM</label>
@@ -175,9 +190,9 @@
   
 <!-- ENQUIRY-->
   <div class="form-group row justify-content-center mb-0">
-    <label for="FormCommentsQuestions" class="col-sm-2 col-form-label text-right">Comments/Questions:</label>
+    <label for="FormCommentsQuestions" class="col-sm-2 col-form-label">Comments/Questions:</label>
     <div class="col-sm-5 d-inline-flex pl-0">
-      <textarea class="form-control" id="FormCommentsQuestions" rows="3"></textarea>
+      <textarea class="form-control" id="FormCommentsQuestions" rows="5" placeholder="Type your message ..."></textarea>
     </div>
   </div>
 
@@ -202,25 +217,23 @@
         <h4> Contact Us
           <hr>
         </h4>
-        <ul>
-          <li><i class="far fa-envelope"></i><a href="mailto:yoga@domain.com?Subject=Hello">yoga@domain.com</a></li>
-          <li><i class="fas fa-phone-alt"></i><a href="tel:01-12345678">+01-12345678</a></li>
-        </ul>
+          <p><i class="far fa-envelope"></i><a href="mailto:yoga@domain.com?Subject=Hello"> yoga@domain.com</a></p>
+          <p><i class="fas fa-phone-alt"></i><a href="tel:01-12345678"> +01-12345678</a></p>
       </div>
 
       <div class="col-md-4">
         <h4> Location
           <hr>
         </h4>
-        <p> 123, Main Road, Main Building, 12345 Australia</p>
+        <p><i class="fas fa-map-marker-alt"></i> 123, Any Road, City Center Building, 12345 This Country</p>
       </div>
 
       <div class="col-md-4">
         <h4> Follow us:
           <hr>
         </h4>
-        <p><i class="fab fa-facebook"></i></p>
-        <p><i class="fab fa-instagram-square"></i></p>
+        <p><i class="fab fa-facebook"></i> <i class="fab fa-instagram-square"></i></p>
+        
       </div>
 
     </div>
