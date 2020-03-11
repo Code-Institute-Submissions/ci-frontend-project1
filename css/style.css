@@ -445,6 +445,10 @@ h1.tagline-1{
     font-family: 'Ubuntu', sans-serif;
     color:wheat;
   }
+
+  footer hr{
+    border: 1px solid wheat;
+  }
   
   footer p{
     font-family: 'Lora', serif;
