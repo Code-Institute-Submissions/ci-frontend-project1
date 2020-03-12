@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1", name="viewport">   <!--, shrink-to-fit=no">-->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -94,10 +94,14 @@
           <div class="carousel-item" style="background-image: url('image/welcome.jpg')">
             <!--<img src="image/welcome.jpg" class="d-block w-100" alt="women sitting in a row with yoga pose">-->
             <div class="headliner">
-              <a href="#pricing" class="btn btn-block">Join Us Now!</a>
+              <h1 class="tagline-1">Join Our Philosophy!</h1>
+              <div class="d-flex">
+              <p> Click </p><a href="#service-types" class="btn align-self-center">here</a><p>to see our classes</p>
+              
+            </div>
             </div>
           </div>
-        </div>
+        
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
@@ -113,7 +117,7 @@
       <section class="py-5" id="articles">   <!-- Cards , Links to Articles-->
         <div class="container h-100">
           <div class="row d-block title-bar my-5"> <!--Title for Articles-->
-            <h1 class="general-heading">Why we should ...</h1>
+            <h1 class="general-heading">Why we should yoga</h1>
             <h2 class="general-sub-heading">benefits of yoga</h2>
           </div>
           <div class="row">
@@ -124,7 +128,7 @@
                 <img class="card-img-top" src="image/surfer.png" alt="Woman doing yoga on surfboard">
                 <div class="card-body">
                   <h4 class="card-title">21 Health Benefits of Yoga</h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper, nisi ac maximus interdum, ...READ MORE <i class="fas fa-angle-double-right"></i></p>
+                  <p class="card-text">Researchers are looking deeper into the wellness benefits of yoga and uncovering fascinating evidence of how the practice affects us mentally and physically...READ MORE <i class="fas fa-angle-double-right"></i></p>
                   <footer class="blockquote-footer">Katherine Griffin Original:Jul 31, 2013 Updated:Apr 12,2017 </footer>
                   <a href="https://www.yogajournal.com/lifestyle/good" class="stretched-link"> </a> 
                 </div>
@@ -161,8 +165,8 @@
       <section class="py-5" id="service-types">   <!-- Product and Services, show in flip-cards-->
         <div class="container h-100">
           <div class="row d-block title-bar my-5"> <!--Title for Products & Services-->
-            <h1 class="general-heading">You're looking for ....</h1>
-            <h2 class="general-sub-heading">view our class-types and schedules</h2>
+            <h1 class="general-heading">Find what you need</h1>
+            <h2 class="general-sub-heading">our class-types and schedules</h2>
           </div>
 
           <div class="row d-flex justify-content-center">
@@ -172,27 +176,29 @@
                 <div class="flip-card-front">
                   <img class="card-img" src="image/fitness.jpg" alt="fitness symbol">
                 </div>
-                <div class="flip-card-back">
+                <div class="row flip-card-back d-flex justify-content-center align-items-center">
+                
                   <p>Our Ashtanga Vinyasa Yoga classes helps you build your strength and tone your body.</p>
-                  <p><a href="#">View</a><span> our class schedule</p></span>
-                  <div class="row justify-content-center">
+                  <p><a href="#">View</a><span> our class schedule</span></p>
+                  <!--<div class="row  justify-content-center">-->
                   <a href="#pricing" class="btn btn-block text-uppercase">Come Join Us!</a>
-                </div>
+                <!--</div>-->
                 </div>
               </div>
-            </div>
+              </div>
+            <!--</div>-->
 
             <div class="col-sm-6 col-md-4 mb-5">
               <div class="card flip-card align-items-center">
                 <div class="flip-card-front">
                 <img class="card-img" src="image/refresh.jpg" alt="sun symbol">
                 </div>
-                <div class="flip-card-back">
+                <div class="row flip-card-back d-flex justify-content-center align-items-center">
                   <p>Our Hot and Iyengar Yoga classes are perfect to freshen you up.</p>
                   <p><a href="#">View</a><span> our class schedule</p></span>
-                  <div class="row justify-content-center">
+                <!-- <div class="row justify-content-center">--> 
                   <a href="#pricing" class="btn btn-block text-uppercase">Come Join Us!</a>
-                </div>
+                <!--</div>-->
                 </div>
             </div>
             </div>
@@ -202,11 +208,11 @@
                 <div class="flip-card-front">
                 <img class="card-img" src="image/prenatal.jpg" alt="human doing yoga symbol">
                 </div>
-                <div class="flip-card-back">
+                <div class="row flip-card-back d-flex justify-content-center align-items-center">
                 <p>We offer customized prenatal yoga classes to help moms-to-be strengthen up pre-birth.</p>
-                <div class="row justify-content-center">
+                <!--<div class="row justify-content-center">-->
                 <a href="forms.html" class="btn btn-block text-uppercase">Let us call you</a>
-              </div>
+              <!-- </div>-->
                 </div>
               </div>
             </div>
@@ -222,12 +228,12 @@
                   <div class="flip-card-front">
                     <img class="card-img" src="image/rejuvenate.jpg" alt="rejuvenate symbol">
                 </div>
-                <div class="flip-card-back">
+                <div class="row flip-card-back d-flex justify-content-center align-items-center">
                   <p>Our Rejuvenative and Restorative class helps rejuvenate and restore your balance</p>
                   <p><a href="#">View</a><span> our class schedule</p></span>
-                  <div class="row justify-content-center">
+                 
                   <a href="#pricing" class="btn btn-block text-uppercase">Come Join Us!</a>
-                </div>
+                
                   </div>
               </div>
               </div>
@@ -238,12 +244,12 @@
                   <div class="flip-card-front">
                   <img class="card-img" src="image/meditation.jpg" alt="meditation symbol">
                 </div>
-                <div class="flip-card-back">
+                <div class="row flip-card-back d-flex justify-content-center align-items-center">
                   <p>We complement our Yin Yoga with Meditation classes to help you clear your mind and relieve stress.</p>
                   <p><a href="#">View</a><span> our class schedule</p></span>
-                  <div class="row justify-content-center">
+                  
                   <a href="#pricing" class="btn btn-block text-uppercase">Come Join Us!</a>
-                </div>
+               
                   </div>
               </div>
               </div>
@@ -253,11 +259,11 @@
                   <div class="flip-card-front">
                   <img class="card-img" src="image/combination.jpg" alt="3 symbol meet in center">
                 </div>
-                <div class="flip-card-back">
+                <div class="row flip-card-back d-flex justify-content-center align-items-center">
                   <p>We offer private and hybrid classes for individuals, couples and corporate.</p>
-                  <div class="row justify-content-center">
+                 
                   <a href="forms.html" class="btn btn-block text-uppercase">Let us call you</a>
-                </div>
+                
                   </div>
               </div>
               </div>
@@ -272,15 +278,14 @@
 
         <div class="container h-100">
           <div class="row d-block title-bar my-5"> <!--Title for Pricing-->
-            <h1 class="general-heading">Our rates ...</h1> 
-            <h2 class="general-sub-heading">our online prices are market competitive</h2>
+            <h1 class="general-heading">Our rates</h1> 
+            <h2 class="general-sub-heading">market competitive prices</h2>
           </div>
 
 
           <div class="row">
             
-            <!--Pay-Per-class-->
-            <div class="col-sm-6 col-md-4 col-lg-3 "> 
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-5">     <!--Pay-Per-class-->
               <div class="card border">
                   <div class="card-header">
                     <h4 class="card-title text-uppercase text-center">pay-per-class</h5>
@@ -301,7 +306,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-3">    <!--Price 2-->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-5">    <!--Advance Package-->
               <div class="card border">
                   <div class="card-header">
                   <h4 class="card-title text-uppercase text-center"> Advance Package</h4>
@@ -322,7 +327,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-3">    <!--Price 3-->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-5">    <!--Pro Package-->
               <div class="card border" id="best-value">
                 <div class="card-header">
                 <h4 class="card-title text-uppercase text-center"> Pro Package</h4>
@@ -343,7 +348,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 col-md-4 col-lg-3">      <!--Price 4-->
+            <div class="col-sm-6 col-md-4 col-lg-3 mb-5">      <!--Starter Package-->
               <div class="card border">
                   <div class="card-header">
                     <h4 class="card-title text-uppercase text-center">starter</h4>

@@ -2,9 +2,9 @@
 
 h1.tagline-1{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 62px;
+  font-size: 300%;
   color: wheat;     
-  text-shadow: 3px 3px 3px #816661;
+  text-shadow: 2px 2px 5px #634a36;
 }
 
 .carousel-item {
@@ -64,27 +64,49 @@ h1.tagline-1{
   }
 
   .headliner .btn{
-    width: 30%;
-    max-width: 30%;
+    width: 12%;
+    height: 10%;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3rem;
+    font-size: 200%;
     font-weight: bold;
     border-radius: 2rem;
     letter-spacing: .1rem;
-    padding: 1rem;
-    opacity: 0.75;
-    background-image: radial-gradient(#423224,#AE896B);
-    color: wheat;
+    opacity: 1.0;
+    background-image: radial-gradient(wheat, #c05963);
+    color: #634a36;
+    padding: 0.2px;
   }
 
-  @media screen and (max-width:600px){
+@media only screen and (max-width: 700px){
   .headliner .btn{
-    width: 50%;
-    max-width: 50%;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
-    }
+    font-size: 125%;
+    width: 15%;
+    height: 10%;
   }
+}
+  .headliner p{
+    color: #634a36;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #fcf5aa;
+    margin-bottom: 0px;
+  }
+
+  @media only screen and (max-width:596px){
+    .headliner p{
+    font-size: 125%;
+  }
+  }
+
+/*  .headliner a:any-link{
+    color: #c05963;
+  }
+
+  .headliner a:hover{
+    color: wheat;
+  }*/
+
 
    /* Articles Page CSS*/
    section#articles {
@@ -97,6 +119,7 @@ h1.tagline-1{
     color: #8B694D;
     text-align: center;
     vertical-align: middle;
+    text-transform: capitalize;
   }
 
   h2.general-sub-heading{
@@ -165,16 +188,25 @@ h1.tagline-1{
       width: 100%;  
     }
 
+    
     .flip-card-back {
       transform: rotateY(180deg);
       position: absolute;
       background-color: #E7D8C9;
       color: #8b694d;
+      font-family: 'Lora', serif;
+      font-size: 150%;
       text-align: center;
       height:100%;
       width: 100%;
       padding: 0.2rem;
     }
+
+  @media only screen and (min-width: 596px) and (max-width:990px){
+    .flip-card-back{
+      font-size: 100%;
+    }
+  }
 
 
     .flip-card:hover .flip-card-front {
@@ -185,28 +217,13 @@ h1.tagline-1{
       transform: rotateY(0deg);
     }
 
-    .flip-card-back > p{
-        color: #8b694d;
-        font-family: 'Lora', serif;
-        font-size: calc(1em + 1vmin);
-        margin-bottom: 0.3rem;
-    }
-  
-    @media screen and (min-width: 600px){
-    .flip-card-back > p{
-      color: #8b694d;
-      font-family: 'Lora', serif;
-      font-size: calc(0.75em + 0.5vmin);
-      margin-bottom: 0.3rem;
-  }
-}
 
 .flip-card-back p a:link {
   color: #8b694d;
 }
 
 .flip-card-back p a:visited {
-  color: grey;
+  color: #c05963;
 }
 
 .flip-card-back p a:hover {
@@ -217,36 +234,19 @@ h1.tagline-1{
   color:yellow;
 }
   
-    .flip-card .btn{
-      width: 70%;
-      max-width: 70%;
-      max-height: auto;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: calc(0.75em + 1vmin);  /*1rem;*/
-      font-weight: bold;
-      border-radius: 5rem;
-      letter-spacing: .1rem;
-      padding: 1rem;
-      opacity: 0.75;
-      background-image: radial-gradient(#423224,#AE896B);
-      color: wheat;
-    }
-
-    @media (width:768px){
-    .flip-card .btn{
-      width: 70%;
-      max-width: 70%;
-      max-height: 20%;
-      font-family: 'Ubuntu', sans-serif;
-      font-size: 1.5vmin;  /*1rem;*/
-      font-weight: bold;
-      border-radius: 5rem;
-      letter-spacing: .1rem;
-      padding: 1rem;
-      opacity: 0.75;
-      background-image: radial-gradient(#423224,#AE896B);
-      color: wheat;
-    }
+.flip-card .btn{
+  width: 70%;
+  max-width: 70%;
+  max-height: auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70%;  /*1rem;*/
+  font-weight: bold;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  padding: 0.5rem;
+  opacity: 0.75;
+  background-image: radial-gradient(#423224,#AE896B);
+  color: wheat;
   }
 
    /* Pricing Page CSS*/
@@ -368,6 +368,7 @@ h1.tagline-1{
   @media only screen and (max-width:700px){
   label.col-form-label{
     text-align: left;
+    width: 90%;
   }
 }
   
