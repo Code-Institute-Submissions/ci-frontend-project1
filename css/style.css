@@ -203,9 +203,9 @@ h1.tagline-1{
   }
 
   /*mid devices*/
-  @media only screen and (min-width: 700px) and (max-width:991px){
+  @media only screen and (min-width: 700px) and (max-width:1199px){
     .flip-card-back{
-      font-size: 80%;
+      font-size: 90%;
     }
   }
 
