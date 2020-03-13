@@ -109,6 +109,7 @@ h1.tagline-1{
   h1.general-heading{
     font-family: 'Ubuntu',sans-serif;
     font-size: 36px;
+    font-weight: bold;
     color: #8B694D;
     text-align: center;
     vertical-align: middle;
@@ -118,6 +119,7 @@ h1.tagline-1{
   h2.general-sub-heading{
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
+    font-weight: bold;
     color: #8B694D;
     text-align: center;
     vertical-align: middle;
