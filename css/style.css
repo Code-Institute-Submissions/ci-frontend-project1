@@ -1,5 +1,18 @@
 /* Home Section Styling*/
 
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;width:600px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+
 h1.tagline-1{
   font-family: 'Ubuntu', sans-serif;
   font-size: 300%;
