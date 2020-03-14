@@ -98,6 +98,14 @@ a. Contact Us - There are 3 icons and text in this column.
 i. The first icon is the e-mail icon with an e-mail address. Clicking the e-mail address will open up an e-mail message addressed to yoga@domain.com.  
 ii. The second icon is the phone icon with a phone number. Clicking the phone number will open up a phone dialer.  
 iii. The final icon in this section is an icon of pen and paper. Clicking the text will direct users to the [Form Page](https://oraclebun.github.io/ci-frontend-project1/forms.html).  
+b. Location - There is marker 1 icon and address in this column. When users click this address, the users will see a modal/pop-up window of an embedded google map location.
+c. Follow Us - There are 2 icons in this column. Users will be directed to the appropriate social media website according to the icon they click.
+
+6. For [Form](https://oraclebun.github.io/ci-frontend-project1/forms.html), the users will see a heading and 6 form labels on the left in brown column. On the right, users will see inputs boxes corresponding to each label. Only Name, Phone and E-mail field are required. The day preffered to call, time preffered and comments/queries are not compusory. If Name, Phone and E-mail input field are empty, the boostrap popover will prompt users to fill in the required field.
+In the navigation bar, the menu items action are the same as the Home page's navigation bar. They will call up the same action.
+The footer at the bottom also behave the same as the footer in index.html.
+
+
 
 
 
