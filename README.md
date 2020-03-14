@@ -73,16 +73,32 @@ Users should be able to see a navigation bar at the top of the landing page. Whe
 
 'Contact' item is a dropdown link that consists of 4 items - Location, E-mail, Phone and Queries.
 
-1. The results of testing 'Contact' dropdown link items are as follows:  
-i. Location - when this is clicked, users will see a modal box of an embedded google map location.  
-ii. E-mail - when this is clicked, users will see a modal window of an empty e-mail message, addressed To: yoga@domain.com with a subject: Hello.  
+1a. The results of testing 'Contact' dropdown link items are as follows:  
+i. Location - when this is clicked, users will see a modal/pop-up window of an embedded google map location.  
+ii. E-mail - when this is clicked, users will see a modal/pop-up window of an empty e-mail message, addressed To: yoga@domain.com with a subject: Hello.  
 iii. Phone - when this is clicked, users will be linked to a phone-dialer to make the call.  
-iv. Queries - when this is clicked, users will be directed to a forms page.
+iv. Queries - when this is clicked, users will be directed to a [Form](https://oraclebun.github.io/ci-frontend-project1/forms.html).
 
 2. Second Section (Articles Page)
 When users enter this page, they should see a main heading 'Why we should yoga' and 3 cards that links to external websites.
 The first article card has a photo of a woman doing yoga poses on a surfboard and links to [A Yoga Journal Article](https://www.yogajournal.com/lifestyle/good).  
-The second article card has a photo of a woman lying face down on the floor. It links to [Very Well Mind](https://www.verywellmind.com/how-yoga-can-help-reduce-stress-3567211).  
-The third article card has a photo of a woman facing front sitting in a lotus position. It links to an article in [Times of India](https://timesofindia.indiatimes.com/life-style/health-fitness/5-reasons-why-millennials-love-yoga/articleshow/74203145.cms).
+The second article card has a photo of a woman lying face down on the floor. It links to a [Very Well Mind Article](https://www.verywellmind.com/how-yoga-can-help-reduce-stress-3567211).  
+The third article card has a photo of a woman facing front sitting in a lotus position. It links to an article in [Times of India](https://timesofindia.indiatimes.com/life-style/health-fitness/5-reasons-why-millennials-love-yoga/articleshow/74203145.cms). For small screen devices, the article cards will be stacked (displayed as block)
 
-3. 
+3. Third Section (Service-types/class-types)
+Users should see flip-cards when they come to this section. On the desktop and tablet screen, they will see 2 rows of 3 flip-cards. On a smaller mobile devices with screen size less than 768px, they will see the flip-cards stacked in either an inverted pyramid or on a column (displayed as block).
+For 4 of the flip-cards, when they are clicked, the back of the flip cards have a text description of the class types and 2 buttons. The 'View' button links to an external website: [Class Schedule](https://www.yogamovement.com/schedule?date=?). The 'Come Join Us' button links to the fourth section [Pricing Page](https://oraclebun.github.io/ci-frontend-project1/#pricing).
+2 of the flip-cards (Prenatal and Combination/Hybrid) have only one 'Let Us Call You' button each. This button links to the [Form Page](https://oraclebun.github.io/ci-frontend-project1/forms.html).
+
+4. Fourth Section (Pricing Page)
+Users will be able to see 4 pricing cards in a row in this section. The layout of the pricing cards will gradually change to 3 in a row for medium sized devices to 2 in a row for smaller medium sized devices and finally stacked in a column (displayed as block) for small mobile devices.
+
+5. Finally, there is a footer at the bottom of the pricing section. There are 3 columns in the footer. 
+a. Contact Us - There are 3 icons and text in this column.   
+i. The first icon is the e-mail icon with an e-mail address. Clicking the e-mail address will open up an e-mail message addressed to yoga@domain.com.  
+ii. The second icon is the phone icon with a phone number. Clicking the phone number will open up a phone dialer.  
+iii. The final icon in this section is an icon of pen and paper. Clicking the text will direct users to the [Form Page](https://oraclebun.github.io/ci-frontend-project1/forms.html).  
+
+
+
+

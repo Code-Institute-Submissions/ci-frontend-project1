@@ -203,7 +203,7 @@ h1.tagline-1{
       background-color: #E7D8C9;
       color: #8b694d;
       font-family: 'Lora', serif;
-      font-size: 150%;
+      font-size: 120%;
       text-align: center;
       height:100%;
       width: 100%;
@@ -247,6 +247,21 @@ h1.tagline-1{
   background-image: radial-gradient(#423224,#AE896B);
   color: wheat;
   }
+
+  .flip-card .btn-view{
+    width: 50%;
+    max-width: 50%;
+    max-height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80%;  
+    font-weight: bold;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    padding: 0.5rem;
+    opacity: 0.75;
+    background-image: radial-gradient(#423224,#AE896B);
+    color: wheat;
+    }
 
    /* Pricing Page CSS*/
    section#pricing {
@@ -469,11 +484,17 @@ h1.tagline-1{
   }
 
   footer a:visited{
-    color: #ccc000;
+    color: white;
+    text-decoration: none;
   }
   
   footer .fab{
     font-size: 3rem;
     display: inline;
     color: wheat;
+    
+  }
+
+  footer #follow-us a{
+    text-decoration: none;
   }
