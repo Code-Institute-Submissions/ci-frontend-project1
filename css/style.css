@@ -8,12 +8,12 @@
 
 .gmap_canvas {
   overflow:hidden;
-  background:none!important;
+  background:none;
   height:500px;
   width:600px;
 }
 
-h1.tagline-1{
+.tagline-1{
   font-family: 'Ubuntu', sans-serif;
   font-size: 300%;
   color: wheat;     
@@ -56,14 +56,15 @@ h1.tagline-1{
 }
 
   .navbar .dropdown-menu{
-    background-color: none;
     opacity: 0.7;
   }
 
+
   nav .dropdown-item{
-    color:#8b694d;
+    color:#523e2d;
     font-family: 'Lora', serif;
     font-size: 1rem;
+    font-weight: bold;
   }
 
   .navbar-toggler-icon{
@@ -105,7 +106,7 @@ h1.tagline-1{
     font-size: 200%;
     font-weight: bold;
     text-shadow: 2px 2px 5px #fcf5aa;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   @media only screen and (max-width:596px){
@@ -115,11 +116,11 @@ h1.tagline-1{
   }
 
    /* Articles Page CSS*/
-   section#articles {
-    background: #F7F2ED;
+   .articles {
+    background: #f7f2ed;
   }
 
-  h1.general-heading{
+  .general-heading{
     font-family: 'Ubuntu',sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -129,7 +130,7 @@ h1.tagline-1{
     text-transform: capitalize;
   }
 
-  h2.general-sub-heading{
+  .general-sub-heading{
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -158,7 +159,7 @@ h1.tagline-1{
     font-family: 'Lora', serif;
   }
 
-    #articles .card:hover {
+    .articles .card:hover {
       margin-top: -.25rem;
       margin-bottom: .25rem;
       box-shadow: 2px 2rem 2rem 0 rgba(0, 0, 0, 0.5);
@@ -166,7 +167,7 @@ h1.tagline-1{
 
 
     /*Services Type Page CSS*/
-    section#service-types {
+    .service-types {
       background: #f7f2ed;
     }
 
@@ -236,7 +237,6 @@ h1.tagline-1{
 .flip-card .btn{
   width: 70%;
   max-width: 70%;
-  max-height: auto;
   font-family: 'Ubuntu', sans-serif;
   font-size: 80%;  
   font-weight: bold;
@@ -248,38 +248,37 @@ h1.tagline-1{
   color: wheat;
   }
 
-  .flip-card .btn-view{
-    width: 50%;
-    max-width: 50%;
-    max-height: auto;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 80%;  
-    font-weight: bold;
-    border-radius: 5rem;
-    letter-spacing: .1rem;
-    padding: 0.5rem;
-    opacity: 0.75;
-    background-image: radial-gradient(#423224,#AE896B);
-    color: wheat;
-    }
-
-   /* Pricing Page CSS*/
-   section#pricing {
-    background: #F7F2ED;
+.flip-card .btn-view{
+  width: 50%;
+  max-width: 50%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80%;  
+  font-weight: bold;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  padding: 0.5rem;
+  opacity: 0.75;
+  background-image: radial-gradient(#423224,#AE896B);
+  color: wheat;
   }
 
-  #pricing .card-header{
+   /* Pricing Page CSS*/
+.pricing {
+    background: #F7F2ED;
+}
+
+  .pricing .card-header{
     background-color: #8B694D;
     border-radius: 30px 30px 0 0;
   }
-  #pricing .card {
+  .pricing .card {
     border: none;
     border-radius: 30px;
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   }
 
-  #pricing .card-title {
+  .pricing .card-title {
     margin: 0.5rem 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
@@ -288,50 +287,48 @@ h1.tagline-1{
     color: wheat;
   }
 
-  #pricing .card-price {
+  .pricing .card-price {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.2rem;
     margin: 0;
     color: wheat;
   }
   
-  #pricing .period {
+  .pricing .period {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     color: wheat;
   }
 
-  #pricing ul li {
+  .pricing ul li {
     margin-bottom: 0.5rem;
     font-family: 'Lora', sans-serif;
   }
 
-  #pricing .btn {
+  .pricing .btn {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5rem;
     letter-spacing: .1rem;
-    font-weight: bold;
     padding: 1rem;
     opacity: 0.75;
     background-image: radial-gradient(#423224,#AE896B);
     color: wheat;
   }
 
-  #pricing .card:hover {
+  .pricing .card:hover {
     margin-top: -.25rem;
     margin-bottom: .25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
 
-  #pricing .card:hover .btn {
+  .pricing .card:hover .btn {
     opacity: 1;
   }
 
   @media only screen and (min-width: 800px){
-  #best-value{  
-    background-color: none;
+  .best-value{  
     box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.3);
     overflow: hidden;
     position: relative;
@@ -340,34 +337,33 @@ h1.tagline-1{
   }
 }
 
-  #best-value .card-header{
+  .best-value .card-header{
     background-color: #dca3a9;
   }
 
-  #best-value .btn {
+  .best-value .btn {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5rem;
     letter-spacing: .1rem;
-    font-weight: bold;
     padding: 1rem;
     opacity: 0.75;
     background-image: radial-gradient(#81313a,#e5babf);
     color: wheat;
   }
 
-  #best-value .fa-ul .fas{
+  .best-value .fa-ul .fas{
     color: #dca3a9;
   }
 
   /* Forms Page CSS*/
 
-  section#su-form{
+  .su-form{
     background: #f7f2ed;
   }
 
-  label.required::after{
+  .required::after{
     content:'*';
     color:wheat;
     margin-left: 5px;
@@ -415,7 +411,7 @@ h1.tagline-1{
     font-size: 0.8em;
   }
 
-  label.form-check-label{
+  .form-check-label{
     color: #8b694d;
   }
 
@@ -435,27 +431,24 @@ h1.tagline-1{
 
 
   .form-buttons .btn{
-    width: 120%;
-    max-width: 120%;
-    max-height: auto;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     border-radius: 5rem;
     letter-spacing: .1rem;
-    padding: 1rem;
+    padding: 5%;
     opacity: 0.75;
     background-image: radial-gradient(#423224,#AE896B);
     color: wheat;
   }
 
-  #footer-contact{
+  .footer-contact{
     background-color: #8b694d;
-    align-items: end;
+    align-items: flex-end;
   }
 
   
-  footer h4{
+  footer {
     font-family: 'Ubuntu', sans-serif;
     color:wheat;
   }
@@ -495,6 +488,6 @@ h1.tagline-1{
     
   }
 
-  footer #follow-us a{
+  footer .follow-us a{
     text-decoration: none;
   }
