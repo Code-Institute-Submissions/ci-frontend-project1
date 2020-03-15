@@ -120,6 +120,8 @@ This project was tested for mobile friendly and responsiveness using Firefox and
 ### Problems in Mobile Responsiveness
 On responsive screen, the content font of back flip-card doesn't size well with respective to the screen size especially for devices screen sizes 600px - 990px. This is temporary resolved by styling with media query in css but this causes non-standardization in the font size with respective to the flip-cards size. 
 
+### Bugs
+In the landing page, sometimes the image doesn't load correctly on Firefox browsers and no image is displayed. Also the transition from one image to the next is sometimes not smooth. As of date, no solution is found for this bug. 
 
 ## Deployment
 This project is just static webpages, thus, it is deployed via GitHub pages. 
