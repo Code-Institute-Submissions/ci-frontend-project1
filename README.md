@@ -11,7 +11,7 @@ This website serves to inform the general public and workers in the local busine
 The design should be user friendly, simple and easy on the eyes. Users of this website should be able to gain information about the yoga studio, the services and the pricing offered. The possible User stories are as follows:
 
 ### Wireframes
-During the starting stage of this project, AdobeXD is used to generate a simple wireframe as a reference for me in my layout approach. The wireframes can be viewed: [here](https://github.com/Oraclebun/ci-frontend-project1/tree/master/document).
+During the starting stage of this project, AdobeXD is used to generate a simple wireframe as a reference for me in my layout approach. The wireframes can be viewed: [here](https://github.com/Oraclebun/ci-frontend-project1/tree/master/documents).
 
 ### User Stories
 * User Story 1: The user is new to yoga and is curious to find out what yoga studio he/she can join to experience yoga.
