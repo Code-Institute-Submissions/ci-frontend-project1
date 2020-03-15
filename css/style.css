@@ -152,6 +152,7 @@
   .card-body{
     color: #8b694d;
     font-family: 'Lora', serif;
+    font-size: 100%;
   }
 
   .card-body > footer {
@@ -159,11 +160,11 @@
     font-family: 'Lora', serif;
   }
 
-    .articles .card:hover {
-      margin-top: -.25rem;
-      margin-bottom: .25rem;
-      box-shadow: 2px 2rem 2rem 0 rgba(0, 0, 0, 0.5);
-    }
+  .articles .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 2px 2rem 2rem 0 rgba(0, 0, 0, 0.5);
+  }
 
 
     /*Services Type Page CSS*/
@@ -204,7 +205,7 @@
       background-color: #E7D8C9;
       color: #8b694d;
       font-family: 'Lora', serif;
-      font-size: 120%;
+      font-size: 100%;
       text-align: center;
       height:100%;
       width: 100%;
@@ -218,7 +219,7 @@
     }
   }
 
-  /*mid devices*/
+  /*mid devices - tablets*/
   @media only screen and (min-width: 700px) and (max-width:1199px){
     .flip-card-back{
       font-size: 90%;
@@ -238,7 +239,7 @@
   width: 70%;
   max-width: 70%;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 80%;  
+  font-size: 100%;  
   font-weight: bold;
   border-radius: 5rem;
   letter-spacing: .1rem;
@@ -251,8 +252,8 @@
 .flip-card .btn-view{
   width: 50%;
   max-width: 50%;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 80%;  
+  font-family: 'Lora', serif;
+  font-size: 100%;  
   font-weight: bold;
   border-radius: 5rem;
   letter-spacing: .1rem;
@@ -262,41 +263,42 @@
   color: wheat;
   }
 
-   /* Pricing Page CSS*/
+/* Pricing Page CSS*/
 .pricing {
-    background: #F7F2ED;
+  background: #F7F2ED;
 }
 
-  .pricing .card-header{
-    background-color: #8B694D;
-    border-radius: 30px 30px 0 0;
-  }
-  .pricing .card {
-    border: none;
-    border-radius: 30px;
-    transition: all 0.2s;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+.pricing .card-header{
+  background-color: #8B694D;
+  border-radius: 30px 30px 0 0;
   }
 
-  .pricing .card-title {
-    margin: 0.5rem 0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    color: wheat;
+  .pricing .card {
+  border: none;
+  border-radius: 30px;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 120%;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  color: wheat;
   }
 
   .pricing .card-price {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.2rem;
+    font-size: 300%;
     margin: 0;
     color: wheat;
   }
   
   .pricing .period {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
+    font-size: 100%;
     color: wheat;
   }
 
@@ -307,7 +309,7 @@
 
   .pricing .btn {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
+    font-size: 120%;
     font-weight: bold;
     border-radius: 5rem;
     letter-spacing: .1rem;
@@ -343,7 +345,7 @@
 
   .best-value .btn {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
+    font-size: 100%;
     font-weight: bold;
     border-radius: 5rem;
     letter-spacing: .1rem;
@@ -460,11 +462,11 @@
   footer p{
     font-family: 'Lora', serif;
     color: white;
-    font-size: 1.2rem;
+    font-size: 120%;
   }
 
   footer .far, footer .fas{
-    font-size: 24px;
+    font-size: 120%;
     color: wheat;
   }
 

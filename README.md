@@ -58,8 +58,9 @@ The technologies used in this project are:
 ### (1) Manual Testing
 The testing for this website is purely using manual testing.
 1. Home Page.
-When users enters the landing page/ home page, they should see a carousel made up of 3 photos images showing people doing yoga poses. In the third carousel, there is a call to action button to view the class-types. When this button is clicked, the webpage redirects to [the service-types section](https://oraclebun.github.io/ci-frontend-project1/#service-types)
-Users should be able to see a navigation bar at the top of the landing page. When the mouse button hovers over the menu items in the navigation bar, it should change to a hand icon.
+When users enters the landing page/ home page, they should see a carousel made up of 3 photos images showing people doing yoga poses. For all the carousel images, there is a text heading overlay. In the third carousel, there is a call to action button to view the class-types. When this button is clicked, the webpage redirects to [the service-types section](https://oraclebun.github.io/ci-frontend-project1/#service-types). On mobile screens, the carousel image is cropped but the headings and the call to action button is still placed within the screen.
+
+1a. Users should be able to see a navigation bar at the top of the landing page. When the mouse button hovers over the menu items in the navigation bar, it should change to a hand icon.
 
 'Home' item redirects the page to itself.
 
@@ -73,11 +74,13 @@ Users should be able to see a navigation bar at the top of the landing page. Whe
 
 'Contact' item is a dropdown link that consists of 4 items - Location, E-mail, Phone and Queries.
 
-1a. The results of testing 'Contact' dropdown link items are as follows:  
+1b. The results of testing 'Contact' dropdown link items are as follows:  
 i. Location - when this is clicked, users will see a modal/pop-up window of an embedded google map location.  
 ii. E-mail - when this is clicked, users will see a modal/pop-up window of an empty e-mail message, addressed To: yoga@domain.com with a subject: Hello.  
 iii. Phone - when this is clicked, users will be linked to a phone-dialer to make the call.  
 iv. Queries - when this is clicked, users will be directed to a [Form](https://oraclebun.github.io/ci-frontend-project1/forms.html).
+
+Users will be able to see the navigation toggler icon for lower mid to small screen sizes as the navigation bar will collapse. The navbar will only expand for higher-mid to large screen sizes.
 
 2. Second Section (Articles Page)
 When users enter this page, they should see a main heading 'Why we should yoga' and 3 cards that links to external websites.
@@ -103,10 +106,76 @@ c. Follow Us - There are 2 icons in this column. Users will be directed to the a
 
 6. For [Form](https://oraclebun.github.io/ci-frontend-project1/forms.html), the users will see a heading and 6 form labels on the left in brown column. On the right, users will see inputs boxes corresponding to each label. Only Name, Phone and E-mail field are required. The day preffered to call, time preffered and comments/queries are not compusory. If Name, Phone and E-mail input field are empty, the boostrap popover will prompt users to fill in the required field.
 In the navigation bar, the menu items action are the same as the Home page's navigation bar. They will call up the same action.
-The footer at the bottom also behave the same as the footer in index.html.
+The additional features which is the logo and the company name has a link that will redirect users back to the home page/index page. The footer at the bottom also behave the same as the footer in index.html.
 
+The page is also tested with html validator site: [w3 validator](https://validator.w3.org/#validate_by_upload) to check for markup errors.
+This project was tested for mobile friendly and responsiveness using Firefox and Chrome80 browsers using the inspect website > toggle device toolbar and select different screen sizes to manually view the mobile responsiveness.
 
+## Deployment
+This project is just static webpages, thus, it is deployed via GitHub pages. 
+At the start of this project, I created github account and updated my code through the respository.
+The management of the project is done via github repository. Thus the project is taken from the repository (master branch) and hosted at:
 
+---
+<https://oraclebun.github.io/ci-frontend-project1/>
 
+---
+This project can also be cloned localling from 
 
+---
+https://github.com/Oraclebun/ci-frontend-project1
+
+---
+
+## Credits
+### Contents and Media
+
+#### Home Section
+The headings for Home (first) section is purely fictional. 
+The photos for the carousels are taken from stock photo images. They are credited to [fizkes]https://www.shutterstock.com/g/fizkes.
+The logo is editted from [logo](https://www.vecteezy.com/vector-art/623833-health-family-care-therapy-logo-and-symbols-nature)
+
+#### Articles Section
+The text and content for Articles card is from:
+[Yoga journal](https://www.yogajournal.com/lifestyle/good)
+[Very Well Mind](https://www.verywellmind.com/how-yoga-can-help-reduce-stress-3567211)
+[Times of India](https://timesofindia.indiatimes.com/life-style/health-fitness/5-reasons-why-millennials-love-yoga/articleshow/74203145.cms)
+
+#### Services-Type (Class Type) Section
+The text and content for the flip-cards in this section is purely fictional.
+The images for the flip-cards are from [VectorStock]https://www.vectorstock.com/royalty-free-vector/
+
+#### Pricing Section
+The text and content for the flip-cards in this section is purely fictional.
+The cards styling is from bootstrap 4 cards.
+
+#### Form Section
+The inspiration for the 'Let Us Contact You' form design is taken from [Bootstrapzen](http://www.bootstrapzen.com/item/281/simple-vertical-signup-form/). The additional labels and inputs are written by me.
+
+#### Navigation Bar
+The navigation bar menu and dropdown link items are inspired by the contents in multiple yoga webpages
+
+#### Footer
+The footer content is decided by me but the design is inspired by [Footer_by_Steven_Wilson_dribbble](https://dribbble.com/shots/1809351-Footer-Detail-for-Personal-Website-Wireframe?utm_source=Clipboard_Shot&utm_campaign=arkrep&utm_content=Footer%20Detail%20for%20Personal%20Website%20Wireframe&utm_medium=Social_Share)
+
+## Acknowledgement
+A lot of the code snippets on my webpage is taken from the bootstrap 4 website:
+[Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+
+Some coding snippets for flip cards are referenced from:
+[Codeply](https://www.codeply.com/go/roydoXgaLr/bootstrap-4-flip-cards)
+&
+[W3School](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+
+The coding snippet for pricing cards are referenced from:
+[Startboostrap]https://startbootstrap.com/snippets/pricing-table/
+
+I would like to thank my HTML/CSS and Boostrap teacher from Code Institute for giving me some advice on the finer details of the layout.
+
+I would like to thank my peers in my class for inspiring me to try harder.
+
+Last but not least, I'd like to thank my sister for suggesting this project idea.
+
+## Disclaimer
+Any content and images used on this website is only for personal project development and educational purpose. They are not meant for profit or income generation.
 
