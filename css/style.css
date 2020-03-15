@@ -1,5 +1,5 @@
 /* Home Section Styling*/
-
+/* Styling for embedded map modal*/
 .mapouter{
   position:relative;
   text-align:right;
@@ -13,6 +13,7 @@
   width:600px;
 }
 
+/* Styling for carousel headline*/
 .tagline-1{
   font-family: 'Ubuntu', sans-serif;
   font-size: 300%;
@@ -29,69 +30,71 @@
     -o-background-size: cover;
     background-size: cover;
     opacity: 0.8;
-  }
-
-  .headliner{
-    position: relative;
-    left: 10%;
-    top: 25%;
-  }
-
-  .fixed-top{
-    position: absolute;
-    top:0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-
-
-  nav a {
-    font-size: 20px;
-  }
-
-  .navbar-custom .nav-item .nav-link {
-    color: #E7D8C9;
-    text-shadow: 2px 2px 1px #816661;
 }
 
-  .navbar .dropdown-menu{
-    opacity: 0.7;
-  }
+/*for positioning the headline*/
+.headliner{
+  position: relative;
+  left: 10%;
+  top: 25%;
+}
+
+/*for navigation bar*/
+.fixed-top{
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+.navbar-custom .nav-item .nav-link {
+  color: #E7D8C9;
+  text-shadow: 2px 2px 1px #816661;
+}
+
+.navbar .dropdown-menu{
+  opacity: 0.7;
+}
 
 
-  nav .dropdown-item{
-    color:#523e2d;
-    font-family: 'Lora', serif;
-    font-size: 1rem;
-    font-weight: bold;
-  }
+nav .dropdown-item{
+  color:#523e2d;
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
 
-  .navbar-toggler-icon{
-    color: #8b694d;
-    font-size: 30px;
-  }
+.navbar-toggler-icon{
+  color: #8b694d;
+  font-size: 30px;
+}
   
-  .navbar-brand{
-    color: #8b694d;
-    font-size: 120%;
-    font-family: 'Leckerli One', cursive;
-    text-shadow: 2px 2px 1px wheat;
-  }
+.navbar-brand{
+  color: #8b694d;
+  font-size: 120%;
+  font-family: 'Leckerli One', cursive;
+  text-shadow: 2px 2px 1px wheat;
+}
 
-  .headliner .btn{
-    width: 12%;
-    height: 10%;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 200%;
-    font-weight: bold;
-    border-radius: 2rem;
-    letter-spacing: .1rem;
-    opacity: 1.0;
-    background-image: radial-gradient(wheat, #c05963);
-    color: #634a36;
-    padding: 0.2px;
-  }
+/*Call to Action Button in 3rd Carousel*/
+.headliner .btn{
+  width: 12%;
+  height: 10%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  border-radius: 2rem;
+  letter-spacing: .1rem;
+  opacity: 1.0;
+  background-image: radial-gradient(wheat, #c05963);
+  color: #634a36;
+  padding: 0.2px;
+ }
 
 @media only screen and (max-width: 700px){
   .headliner .btn{
@@ -100,7 +103,9 @@
     height: 10%;
   }
 }
-  .headliner p{
+
+/*text in call to action item*/
+.headliner p{
     color: #634a36;
     font-family: 'Ubuntu', sans-serif;
     font-size: 200%;
@@ -113,118 +118,123 @@
     .headliner p{
     font-size: 125%;
   }
-  }
+}
 
-   /* Articles Page CSS*/
-   .articles {
-    background: #f7f2ed;
-  }
+  /* Articles Page CSS*/
+.articles {
+  background: #f7f2ed;
+}
 
-  .general-heading{
-    font-family: 'Ubuntu',sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: #8B694D;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: capitalize;
-  }
+/*General heading for every page*/
+.general-heading{
+  font-family: 'Ubuntu',sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #8B694D;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: capitalize;
+}
 
-  .general-sub-heading{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #8B694D;
-    text-align: center;
-    vertical-align: middle;
-  }
+/*General sub-heading for every page*/
+.general-sub-heading{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #8B694D;
+  text-align: center;
+  vertical-align: middle;
+}
 
-  .title-bar{
-    justify-content: center;
-    align-items: center;
-  }
+/*Container for heading*/
+.title-bar{
+  justify-content: center;
+  align-items: center;
+}
    
-  .card-deck .card .card-img-top{
-    background-color: lightblue; /*fall-back in case image fails*/
-    border: none;
-  }
+/*Articles card styling*/
+.card-deck .card .card-img-top{
+  background-color: lightblue; /*fall-back in case image fails*/
+  border: none;
+}
 
-  .card-body{
-    color: #8b694d;
-    font-family: 'Lora', serif;
-    font-size: 100%;
-  }
+.card-body{
+  color: #8b694d;
+  font-family: 'Lora', serif;
+  font-size: 100%;
+}
 
-  .card-body > footer {
-    color: #8b694d;
-    font-family: 'Lora', serif;
-  }
+.card-body > footer {
+  color: #8b694d;
+  font-family: 'Lora', serif;
+}
 
-  .articles .card:hover {
-    margin-top: -.25rem;
-    margin-bottom: .25rem;
-    box-shadow: 2px 2rem 2rem 0 rgba(0, 0, 0, 0.5);
-  }
+.articles .card:hover {
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 2px 2rem 2rem 0 rgba(0, 0, 0, 0.5);
+}
 
 
-    /*Services Type Page CSS*/
-    .service-types {
-      background: #f7f2ed;
-    }
+/*Services Type Page CSS*/
+.service-types {
+  background: #f7f2ed;
+}
 
-    .card.flip-card{
-      background-color: #f7f2ed;
-      border: none;
-    }
+/*Flip-card styling*/
+.card.flip-card{
+  background-color: #f7f2ed;
+  border: none;
+}
 
-    .card .card-img{
-      background-color: lightblue; /*fall-back in case image fails*/
-    }
+.card .card-img{
+  background-color: lightblue; /*fall-back in case image fails*/
+}
 
-    .flip-card > div {
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      transition: transform 500ms;
-      transition-timing-function: linear;
-      margin: 0;
-      border: none;
-    }
+.flip-card > div {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 500ms;
+  transition-timing-function: linear;
+  margin: 0;
+  border: none;
+}
 
-    .flip-card-front {
-      transform: rotateY(0deg);
-      background-color: #bbb;
-      color: #8b694d;
-      height:100%;    /*set image the size of the div container*/
-      width: 100%;  
-    }
+.flip-card-front {
+  transform: rotateY(0deg);
+  background-color: #bbb;
+  color: #8b694d;
+  height:100%;    /*set image the size of the div container*/
+  width: 100%;  
+}
 
     
-    .flip-card-back {
-      transform: rotateY(180deg);
-      position: absolute;
-      background-color: #E7D8C9;
-      color: #8b694d;
-      font-family: 'Lora', serif;
-      font-size: 100%;
-      text-align: center;
-      height:100%;
-      width: 100%;
-      padding: 0.2rem;
-    }
+.flip-card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  background-color: #E7D8C9;
+  color: #8b694d;
+  font-family: 'Lora', serif;
+  font-size: 100%;
+  text-align: center;
+  height:100%;
+  width: 100%;
+  padding: 0.2rem;
+}
 
-  /*high range small devices*/
-  @media only screen and (min-width: 596px) and (max-width:700px){
-    .flip-card-back{
-      font-size: 100%;
-    }
+/*high range small devices*/
+@media only screen and (min-width: 596px) and (max-width:700px){
+  .flip-card-back{
+  font-size: 100%;
   }
+}
 
-  /*mid devices - tablets*/
-  @media only screen and (min-width: 700px) and (max-width:1199px){
-    .flip-card-back{
-      font-size: 90%;
-    }
+/*mid devices - tablets*/
+@media only screen and (min-width: 700px) and (max-width:1199px){
+  .flip-card-back{
+    font-size: 90%;
   }
+}
 
 
 .flip-card:hover .flip-card-front {
@@ -271,14 +281,14 @@
 .pricing .card-header{
   background-color: #8B694D;
   border-radius: 30px 30px 0 0;
-  }
+}
 
-  .pricing .card {
+.pricing .card {
   border: none;
   border-radius: 30px;
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-  }
+}
 
 .pricing .card-title {
   margin: 0.5rem 0;
@@ -289,18 +299,18 @@
   color: wheat;
   }
 
-  .pricing .card-price {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 300%;
-    margin: 0;
-    color: wheat;
-  }
+.pricing .card-price {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 300%;
+  margin: 0;
+  color: wheat;
+}
   
-  .pricing .period {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 100%;
-    color: wheat;
-  }
+.pricing .period {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 100%;
+  color: wheat;
+}
 
   .pricing ul li {
     margin-bottom: 0.5rem;
@@ -329,6 +339,8 @@
     opacity: 1;
   }
 
+  /*Styling for Advance Package Price card*/
+  /*only for mid - large devices*/
   @media only screen and (min-width: 800px){
   .best-value{  
     box-shadow: 1rem 1rem 0 rgba(0, 0, 0, 0.3);
@@ -359,8 +371,7 @@
     color: #dca3a9;
   }
 
-  /* Forms Page CSS*/
-
+  /* Forms Page Styling*/
   .su-form{
     background: #f7f2ed;
   }
@@ -444,6 +455,7 @@
     color: wheat;
   }
 
+  /*Footer Section*/
   .footer-contact{
     background-color: #8b694d;
     align-items: flex-end;

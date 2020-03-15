@@ -94,7 +94,7 @@ For 4 of the flip-cards, when they are clicked, the back of the flip cards have 
 2 of the flip-cards (Prenatal and Combination/Hybrid) have only one 'Let Us Call You' button each. This button links to the [Form Page](https://oraclebun.github.io/ci-frontend-project1/forms.html).
 
 4. Fourth Section (Pricing Page)
-Users will be able to see 4 pricing cards in a row in this section. The layout of the pricing cards will gradually change to 3 in a row for medium sized devices to 2 in a row for smaller medium sized devices and finally stacked in a column (displayed as block) for small mobile devices.
+Users will be able to see 4 pricing cards in a row in this section. The layout of the pricing cards will gradually change to 3 in a row for medium sized devices to 2 in a row for smaller medium sized devices and finally stacked in a column (displayed as block) for small mobile devices. The Purchase Button at the moment direct users to [MailChimp Login Page](https://login.mailchimp.com/?gclid=EAIaIQobChMI8YyCtd-c6AIV06uWCh0YeQTBEAAYASAAEgLDAPD_BwE&gclsrc=aw.ds)
 
 5. Finally, there is a footer at the bottom of the pricing section. There are 3 columns in the footer. 
 a. Contact Us - There are 3 icons and text in this column.   
@@ -104,12 +104,16 @@ iii. The final icon in this section is an icon of pen and paper. Clicking the te
 b. Location - There is marker 1 icon and address in this column. When users click this address, the users will see a modal/pop-up window of an embedded google map location.
 c. Follow Us - There are 2 icons in this column. Users will be directed to the appropriate social media website according to the icon they click.
 
-6. For [Form](https://oraclebun.github.io/ci-frontend-project1/forms.html), the users will see a heading and 6 form labels on the left in brown column. On the right, users will see inputs boxes corresponding to each label. Only Name, Phone and E-mail field are required. The day preffered to call, time preffered and comments/queries are not compusory. If Name, Phone and E-mail input field are empty, the boostrap popover will prompt users to fill in the required field.
+6. For [Form](https://oraclebun.github.io/ci-frontend-project1/forms.html), the users will see a heading and 6 form labels on the left in brown column. On the right, users will see inputs boxes corresponding to each label. Only Name, Phone and E-mail field are required. The day preferred to call, time preferred and comments/queries are not compusory. If Name, Phone and E-mail input field are empty, a boostrap popover will prompt users to fill in the required field. As this page does not have Javascript, form validation can't be implemented.
 In the navigation bar, the menu items action are the same as the Home page's navigation bar. They will call up the same action.
-The additional features which is the logo and the company name has a link that will redirect users back to the home page/index page. The footer at the bottom also behave the same as the footer in index.html.
+Additional features on the Form page is the logo and the company name has a link that will redirect users back to the home page/index page. The footer at the bottom also behave the same as the footer in index.html.
 
 The page is also tested with html validator site: [w3 validator](https://validator.w3.org/#validate_by_upload) to check for markup errors.
 This project was tested for mobile friendly and responsiveness using Firefox and Chrome80 browsers using the inspect website > toggle device toolbar and select different screen sizes to manually view the mobile responsiveness.
+
+### Problems in Mobile Responsiveness
+On responsive screen, the content font of back flip-card doesn't size well with respective to the screen size especially for devices screen sizes 600px - 990px. This is temporary resolved by styling with media query in css but this causes non-standardization in the font size with respective to the flip-cards size. 
+
 
 ## Deployment
 This project is just static webpages, thus, it is deployed via GitHub pages. 
@@ -120,12 +124,14 @@ The management of the project is done via github repository. Thus the project is
 <https://oraclebun.github.io/ci-frontend-project1/>
 
 ---
-This project can also be cloned localling from 
+This project can also be cloned and run locally from: 
 
 ---
 https://github.com/Oraclebun/ci-frontend-project1
 
 ---
+
+To clone the project, type in the command 'git clone https://github.com/Oraclebun/ci-frontend-project1' in the command prompt/ terminal window. The deployed version of this project may be able to open up the external links. However, if the project is run in development stage without internet connection, certain links will not be accessible.
 
 ## Credits
 ### Contents and Media
@@ -137,7 +143,7 @@ The logo is credited to [Vecteezy](https://www.vecteezy.com/vector-art/623833-he
 and some slight modification and editing has been made to the logo to make it suitable to the project theme.
 
 #### Articles Section
-The text and content for Articles card is from:
+The text and content for Articles card is from:  
 [Yoga journal](https://www.yogajournal.com/lifestyle/good)  
 [Very Well Mind](https://www.verywellmind.com/how-yoga-can-help-reduce-stress-3567211)  
 [Times of India](https://timesofindia.indiatimes.com/life-style/health-fitness/5-reasons-why-millennials-love-yoga/articleshow/74203145.cms)  
@@ -157,7 +163,7 @@ The inspiration for the 'Let Us Contact You' form design is taken from [Bootstra
 The navigation bar menu and dropdown link items are inspired by the contents in multiple yoga webpages
 
 #### Footer
-The footer content is decided by me but the design is inspired by [Footer_by_Steven_Wilson_dribbble](https://dribbble.com/shots/1809351-Footer-Detail-for-Personal-Website-Wireframe?utm_source=Clipboard_Shot&utm_campaign=arkrep&utm_content=Footer%20Detail%20for%20Personal%20Website%20Wireframe&utm_medium=Social_Share)
+The footer content is decided by me but the design is inspired by [Footer by Steven Wilson in dribbble](https://dribbble.com/shots/1809351-Footer-Detail-for-Personal-Website-Wireframe?utm_source=Clipboard_Shot&utm_campaign=arkrep&utm_content=Footer%20Detail%20for%20Personal%20Website%20Wireframe&utm_medium=Social_Share)
 
 ## Acknowledgement
 A lot of the code snippets on my webpage is taken from the bootstrap 4 website:
@@ -169,7 +175,7 @@ Some coding snippets for flip cards are referenced from:
 [W3School](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
 The coding snippet for pricing cards are referenced from:
-[Startboostrap]https://startbootstrap.com/snippets/pricing-table/
+[Startboostrap](https://startbootstrap.com/snippets/pricing-table/)
 
 I would like to thank my HTML/CSS and Boostrap teacher from Code Institute for giving me some advice on the finer details of the layout.
 
@@ -178,5 +184,5 @@ I would like to thank my peers in my class for inspiring me to try harder.
 Last but not least, I'd like to thank my sister for suggesting this project idea.
 
 ## Disclaimer
-Any content and images used on this website is only for personal project development and educational purpose. They are not meant for profit or income generation.
+Any content and images used on this website is only for personal development and educational purpose. They are not meant for profit or income generation.
 
