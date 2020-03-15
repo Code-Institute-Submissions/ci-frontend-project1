@@ -138,7 +138,7 @@ To clone the project, type in the command 'git clone https://github.com/Oraclebu
 
 #### Home Section
 The headings for Home (first) section is purely fictional. 
-The photos for the carousels are taken from stock photo images. They are credited to [fizkes]https://www.shutterstock.com/g/fizkes.
+The photos for the carousels are taken from stock photo images. They are credited to [fizkes](https://www.shutterstock.com/g/fizkes).
 The logo is credited to [Vecteezy](https://www.vecteezy.com/vector-art/623833-health-family-care-therapy-logo-and-symbols-nature)
 and some slight modification and editing has been made to the logo to make it suitable to the project theme.
 
@@ -150,7 +150,7 @@ The text and content for Articles card is from:
 
 #### Services-Type (Class Type) Section
 The text and content for the flip-cards in this section is purely fictional.
-The images for the flip-cards are from [VectorStock]https://www.vectorstock.com/royalty-free-vector/
+The images for the flip-cards are from [VectorStock](https://www.vectorstock.com/royalty-free-vector/)
 
 #### Pricing Section
 The text and content for the flip-cards in this section is purely fictional.
