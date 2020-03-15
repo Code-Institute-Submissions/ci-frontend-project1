@@ -133,13 +133,14 @@ https://github.com/Oraclebun/ci-frontend-project1
 #### Home Section
 The headings for Home (first) section is purely fictional. 
 The photos for the carousels are taken from stock photo images. They are credited to [fizkes]https://www.shutterstock.com/g/fizkes.
-The logo is editted from [logo](https://www.vecteezy.com/vector-art/623833-health-family-care-therapy-logo-and-symbols-nature)
+The logo is credited to [Vecteezy](https://www.vecteezy.com/vector-art/623833-health-family-care-therapy-logo-and-symbols-nature)
+and some slight modification and editing has been made to the logo to make it suitable to the project theme.
 
 #### Articles Section
 The text and content for Articles card is from:
-[Yoga journal](https://www.yogajournal.com/lifestyle/good)
-[Very Well Mind](https://www.verywellmind.com/how-yoga-can-help-reduce-stress-3567211)
-[Times of India](https://timesofindia.indiatimes.com/life-style/health-fitness/5-reasons-why-millennials-love-yoga/articleshow/74203145.cms)
+[Yoga journal](https://www.yogajournal.com/lifestyle/good)  
+[Very Well Mind](https://www.verywellmind.com/how-yoga-can-help-reduce-stress-3567211)  
+[Times of India](https://timesofindia.indiatimes.com/life-style/health-fitness/5-reasons-why-millennials-love-yoga/articleshow/74203145.cms)  
 
 #### Services-Type (Class Type) Section
 The text and content for the flip-cards in this section is purely fictional.
